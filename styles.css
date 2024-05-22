@@ -6,7 +6,12 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
-.main {
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 .red {
@@ -51,5 +56,26 @@ body {
     outline: none;
     border: 1px solid white;
     margin-left: auto;
+    color: rgb(255, 136, 0);
   }
+}
+
+.offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  li {
+    max-width: 100%;
+    background-color: brown;
+    color: white;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+}
+
+.contacts {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
